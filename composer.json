@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Serringer\\": "Serringer"
+    },
+    "files": [
+      "Serringer/Functions/functions.php"
+    ]
+  },
+  "require": {
+    "illuminate/database": "^5.2",
+    "alexgarrett/violin": "^2.2"
+  }
+}
