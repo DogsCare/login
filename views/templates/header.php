@@ -15,8 +15,4 @@
         <li><a href="/">Forsiden</a></li>
     </ul>
 </div>
-<div>
-    <p>Session:</p>
-    <?php echo (isset($_SESSION['auth'])) ? '<pre>' . print_r($_SESSION['auth'], true) . '</pre>' : ''; ?>
-</div>
 
